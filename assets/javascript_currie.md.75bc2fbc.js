@@ -1,0 +1,1 @@
+import{_ as t,c as a,o as r,a as e}from"./app.69538d66.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"javascript/currie.md"}'),s={name:"javascript/currie.md"},c=e("ul",null,[e("li",null,"函数柯里化")],-1),o=[c];function n(i,_,l,p,d,u){return r(),a("div",null,o)}const h=t(s,[["render",n]]);export{f as __pageData,h as default};
