@@ -2,7 +2,7 @@
 
 引入 qiankun
 -
-见 [官方文档](https://qiankun.umijs.org/zh/guide/getting-started)
+详情见 [官方文档](https://qiankun.umijs.org/zh/guide/getting-started)
 
 提供子应用容器
 -
