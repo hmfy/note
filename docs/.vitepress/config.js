@@ -1,6 +1,5 @@
 import {defineConfig} from 'vitepress'
 import sidebar from "./sidebar";
-import { resolve } from 'path'
 import {getDirName} from "../../bash/utils.mjs";
 
 const __dirname = getDirName(import.meta.url)
@@ -8,7 +7,6 @@ const __dirname = getDirName(import.meta.url)
 export default defineConfig({
     title: "daily study",
     lang: 'en-US',
-    outDir: resolve(__dirname, '../../dist'),
     description: "无 FUCK 说",
     themeConfig: {
         siteTitle: ' ',
