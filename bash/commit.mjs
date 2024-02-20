@@ -17,7 +17,7 @@ const commitRemote = async commitMsg => {
 
     // 推送到 github
     // SSH 方式
-    const gitRemote = `${inPath} && git remote add origin git@github.com:hmfy/note.git`
+    const gitRemote = `${inPath} && git remote rm origin && git remote add origin git@github.com:hmfy/note.git`
     // const gitRemote = `${inPath} && git remote add origin git@gitee.com:hmfy/note.git`
     const gitRemoteRes = await promisify(gitRemote, 'git remote')
     if (gitRemoteRes === false) return
