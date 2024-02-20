@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app.db63b7d7.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"vue/封装一个loading控制器.md"}'),o={name:"vue/封装一个loading控制器.md"};function n(r,_,s,c,d,i){return a(),t("div")}const m=e(o,[["render",n]]);export{l as __pageData,m as default};

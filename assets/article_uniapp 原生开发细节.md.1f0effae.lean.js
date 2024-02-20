@@ -1,0 +1,1 @@
+import{_ as a,c as s,o as n,b as l}from"./app.db63b7d7.js";const _=JSON.parse('{"title":"页面跳转","description":"","frontmatter":{},"headers":[],"relativePath":"article/uniapp 原生开发细节.md"}'),e={name:"article/uniapp 原生开发细节.md"},o=l("",11),t=[o];function p(i,r,c,u,h,d){return n(),s("div",null,t)}const y=a(e,[["render",p]]);export{_ as __pageData,y as default};
