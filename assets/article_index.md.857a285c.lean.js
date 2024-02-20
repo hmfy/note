@@ -1,1 +1,0 @@
-import{_ as t,c as a,o as n,a as e}from"./app.db63b7d7.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"article/index.md"}'),o={name:"article/index.md"},s=e("ul",null,[e("li",null,"首页简介")],-1),r=[s];function c(i,l,d,_,p,m){return n(),a("div",null,r)}const x=t(o,[["render",c]]);export{f as __pageData,x as default};

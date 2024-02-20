@@ -1,1 +1,0 @@
-import{_ as t,c as a,o as c,a as e}from"./app.db63b7d7.js";const v=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"vue/Reactive原理.md"}'),o={name:"vue/Reactive原理.md"},s=e("ul",null,[e("li",null,"Reactive")],-1),n=[s];function r(_,i,l,d,p,u){return c(),a("div",null,n)}const f=t(o,[["render",r]]);export{v as __pageData,f as default};
