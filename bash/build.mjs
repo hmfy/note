@@ -5,7 +5,7 @@ const __dirname = getDirName(import.meta.url)
 
 function delDist () {
     console.log('正在删除dist文件夹')
-    const distOut = resolve(__dirname, '../docs/.vitepress/dist')
+    const distOut = resolve(__dirname, '../dist')
     const errInfo = rmDirFile(distOut)
     console.log(errInfo ? '删除失败，原因：' + errInfo : '删除完成')
 }
@@ -21,6 +21,7 @@ function delDist () {
         console.log(err)
     }
     // 打包
+    console.log('正在打包...')
     const cmdParams = getCmdParams('--base') || '/'
     const build = `npx vitepress build docs --base ${cmdParams}`
     await promisify(build, '打包')
