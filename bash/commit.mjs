@@ -27,4 +27,4 @@ const commitRemote = async commitMsg => {
 }
 
 // 代码提交
-await commitRemote('process complete')
+await commitRemote('自动拉取流程')
