@@ -26,10 +26,5 @@ const commitRemote = async commitMsg => {
     await promisify(gitPush, 'git push')
 }
 
-;(async () => {
-    // 生成配置文件
-    await generateConfig()
-
-    // 打包发布
-    await commitRemote('all commit')
-})()
+// 代码提交
+await commitRemote('process complete')
