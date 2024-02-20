@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev": "node ./bash/start.mjs && vitepress dev docs --host 0.0.0.0 --port 8888",
+    "build": "node ./bash/build.mjs",
+    "buildNote": "node ./bash/build.mjs --base /note/"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.50"
+  }
+}
