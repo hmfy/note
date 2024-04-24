@@ -1,0 +1,1 @@
+import{_ as o,c as s,a,d as r,o as t,r as n}from"./app.b74c8818.js";const m=JSON.parse('{"title":"vue.global.js","description":"","frontmatter":{},"headers":[],"relativePath":"vue/vue的几种打包产物.md"}'),d={name:"vue/vue的几种打包产物.md"},u=r("",9);function c(l,_,p,i,h,b){const e=n("VisitLog");return t(),s("div",null,[u,a(e)])}const j=o(d,[["render",c]]);export{m as __pageData,j as default};
