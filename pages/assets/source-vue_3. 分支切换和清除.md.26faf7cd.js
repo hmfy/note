@@ -1,1 +1,0 @@
-import{_ as t,c as o,a as s,o as a,r}from"./app.9feacaa1.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"source-vue/3. 分支切换和清除.md"}'),_={name:"source-vue/3. 分支切换和清除.md"};function n(c,i,p,d,m,l){const e=r("VisitLog");return a(),o("div",null,[s(e)])}const v=t(_,[["render",n]]);export{f as __pageData,v as default};
